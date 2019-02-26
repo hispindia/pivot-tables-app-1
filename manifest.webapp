@@ -10,7 +10,7 @@
   },
   "appType": "APP",
   "name": "Pivot tables app",
-  "version": "30.0.25",
+  "version": "30.0.26",
   "description": "Pivot tables app",
   "developer": {
     "name": "DHIS2 visualization team"
@@ -18,5 +18,5 @@
   "icons": {
     "48": "icon.png"
   },
-  "manifest_generated_at": "Tue Feb 26 2019 12:46:51 GMT+0000 (UTC)"
+  "manifest_generated_at": "Tue Feb 26 2019 12:50:28 GMT+0000 (UTC)"
 }
