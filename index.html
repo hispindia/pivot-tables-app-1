@@ -26,5 +26,20 @@
 <script type="text/javascript" src="extjs/ext-overrides/ext-override-loadmask.js"></script>
 
 <script src="app.js"></script>
+<script>
+var resetTime_int;
+function resetTimer(){
+    if(resetTime_int) window.clearTimeout(resetTime_int)
+    resetTime_int=window.setTimeout(function (){
+                 alert('Session Expired login again');
+                 window.location.href = '../dhis-web-commons-security/logout.action';
+    }, 1*30*1000);
+}
+
+resetTimer()
+document.onmousemove=resetTimer;
+document.onkeyup=resetTimer;
+
+</script>
 </body>
 </html>
